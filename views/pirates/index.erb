@@ -1,0 +1,10 @@
+<h1>Ship Loads of Pirates</h1>
+    <!-- <h2>let's navigate to the <a href="/pirates/new">'/new'</a></h2> -->
+
+<ul>
+<% @pirates.each do |pirate| %>
+  <li> Name: <%= pirate.name %> </li>
+  <li>  Weight: <%= pirate.weight %> </li>
+  <li>  Height: <%= pirate.height %> </li>
+<% end %>
+</ul>
