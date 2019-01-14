@@ -13,7 +13,7 @@ module FormsLab
       erb :'pirates/index'
     end
 
-    get '/pirates/new' do
+    get '/new' do
       erb :'pirates/new'
     end
 
@@ -24,8 +24,7 @@ module FormsLab
     end
 
     post '/pirates' do
-
-      erb :'pirates/show/:id'
+      erb :'pirates/show'
     end
 
   end
